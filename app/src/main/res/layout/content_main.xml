@@ -2,6 +2,7 @@
 <ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:paddingLeft="@dimen/activity_horizontal_margin"
@@ -43,13 +44,23 @@
             android:id="@+id/btnLoad"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+
+            android:background="@drawable/custom_btn"
             android:text="Load Photo"/>
 
         <Button
             android:id="@+id/btnDetectFace"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@drawable/custom_btn"
             android:text="Detect Face" />
+        <Button
+            android:id="@+id/showRst"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:background="@drawable/custom_btn"
+            android:text="Show result" />
 
         <ImageView
             android:layout_width="wrap_content"
